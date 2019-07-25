@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Прогноз погоды</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Погода <span id="this-day"></span></h1>
+    <div class="weather">
+      <div class="arrow-container clicable" onclick="changeDay(this)" role="button" id="arrow-left">
+          <img src="arrow-right.svg" class="transition arrow-left" width="20" alt="">
+      </div>
+      <div class="days" id="day0">
+
+      </div>
+      <div class="days" id="day1">
+
+      </div>
+      <div class="days" id="day2">
+
+      </div>
+      <div class="days" id="day3">
+
+      </div>
+      <div class="arrow-container clicable" onclick="changeDay(this)" role="button" id="arrow-right">
+        <img src="arrow-right.svg" class="transition arrow-right" width="20" style="vertical-align: center;" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
