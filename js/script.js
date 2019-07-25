@@ -1,9 +1,8 @@
-"use strict";
+﻿"use strict";
 const week = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четвег", "Пятница", "Суббота"];
 const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
 var shift = 0;
 var today = new Date;
-var t = new Date(1563739200000);
 today.setHours(0, 0, 0, 0);
 
 var cloud = document.createElementNS('http://www.w3.org/2000/svg', 'path');
